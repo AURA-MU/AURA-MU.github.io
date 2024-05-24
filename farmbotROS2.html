@@ -105,7 +105,17 @@
           </p>
           <hr class="line">
           <h2>Implementation</h2>
-          <p>sss</p>
+          <p>
+            The hardware does not need to be adapted in any way for running ROS2 Farmbot. Make sure that the Farmduino has the latest firmware installed on it and install Ubuntu 22.04 Server on the Raspberry Pi (Desktop version is not needed as the farmbots can be controlled over SSH).
+            If you are not using a LAN Cable, ensure that you are adding the network details when installing Ubuntu. Once Ubuntu is installed, install ROS2 Humble following the tutorial on the official page.
+          </p>
+          <p>
+            The implementation follows a modular design, splitting the codebase into multiple packages representing the main functionality blocks in the codebase. Those packages can be updated or changes without affecting the functionality of other packages.
+            This also enables for easier versioning and debugging.
+          </p>
+          <p>
+            The documentation of the codebase can be found on the <a href="https://github.com/PetriJF/FarmBot_ROS2" title="Farmbot ROS2">GitHub</a> together with other information that might be of use.
+          </p>
           <hr class="line">
           <h2>Results</h2>
           <p>
@@ -117,7 +127,7 @@
           <hr class="line">
           <h2>Support and utilization</h2>
           <p>
-            If you require any support in the utilization of the farmbots, please read the documentation provided on the GitHub. If you still require assistance, feel free to contact us through GitHub or by email.
+            If you require any support in the utilization of the farmbots, please read the documentation provided on the GitHub. If you still require assistance, feel free to contact us through GitHub or by email. 
           </p>
         </div>
       </div>
